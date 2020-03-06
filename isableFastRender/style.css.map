@@ -1,0 +1,13 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sourceRoot": "/Users/dhanish/Projects/bud",
+	"sources": [
+		"stdin"
+	],
+	"sourcesContent": [
+		"* {\n  box-sizing: border-box;\n}\n\nbody {\n  margin: 0;\n  padding: 0;\n  width: 100%;\n}\n\nh1,\nh2 {\n  font-family: \"Montserrat\", sans-serif;\n}\n\n.wrapper {\n  display: flex;\n  flex-direction: column;\n  width: 100%;\n}\n\n.hero {\n  background: rgba(0, 0, 255, 1);\n  display: flex;\n  flex-direction: column;\n  height: 600px;\n  justify-content: space-between;\n  p.intro {\n    color: white;\n    display: inline-block;\n    font-size: 2em;\n    text-align: center;\n  }\n}\n\n.hero,\n.principles {\n  padding: 60px;\n}\n\n.header {\n  align-items: center;\n  display: flex;\n  height: 100px;\n  justify-content: space-between;\n  .logo {\n    fill: white;\n    width: 60px;\n  }\n  h1 {\n    color: white;\n    font-size: 18px;\n  }\n  .social {\n    a {\n      text-decoration: none;\n      svg {\n        margin-left: 10px;\n        .socialIcon {\n          stroke: white;\n        }\n      }\n    }\n  }\n}\n\n.principles {\n  h2 {\n    font-size: 2.5em;\n    text-align: center;\n  }\n  ul {\n    li {\n      font-family: \"Crimson Pro\", serif;\n      font-size: 1.5em;\n      margin: 1em 0;\n    }\n  }\n}\n"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,CAAC,AAAC,CACA,UAAU,CAAE,UAAU,CACvB,AAED,AAAA,IAAI,AAAC,CACH,MAAM,CAAE,CAAC,CACT,OAAO,CAAE,CAAC,CACV,KAAK,CAAE,IAAI,CACZ,AAED,AAAA,EAAE,CACF,EAAE,AAAC,CACD,WAAW,CAAE,wBAAwB,CACtC,AAED,AAAA,QAAQ,AAAC,CACP,OAAO,CAAE,IAAI,CACb,cAAc,CAAE,MAAM,CACtB,KAAK,CAAE,IAAI,CACZ,AAED,AAAA,KAAK,AAAC,CACJ,UAAU,CAAE,IAAkB,CAC9B,OAAO,CAAE,IAAI,CACb,cAAc,CAAE,MAAM,CACtB,MAAM,CAAE,KAAK,CACb,eAAe,CAAE,aAAa,CAO/B,AAZD,AAME,KANG,CAMH,CAAC,AAAA,MAAM,AAAC,CACN,KAAK,CAAE,KAAK,CACZ,OAAO,CAAE,YAAY,CACrB,SAAS,CAAE,GAAG,CACd,UAAU,CAAE,MAAM,CACnB,AAGH,AAAA,KAAK,CACL,WAAW,AAAC,CACV,OAAO,CAAE,IAAI,CACd,AAED,AAAA,OAAO,AAAC,CACN,WAAW,CAAE,MAAM,CACnB,OAAO,CAAE,IAAI,CACb,MAAM,CAAE,KAAK,CACb,eAAe,CAAE,aAAa,CAoB/B,AAxBD,AAKE,OALK,CAKL,KAAK,AAAC,CACJ,IAAI,CAAE,KAAK,CACX,KAAK,CAAE,IAAI,CACZ,AARH,AASE,OATK,CASL,EAAE,AAAC,CACD,KAAK,CAAE,KAAK,CACZ,SAAS,CAAE,IAAI,CAChB,AAZH,AAcI,OAdG,CAaL,OAAO,CACL,CAAC,AAAC,CACA,eAAe,CAAE,IAAI,CAOtB,AAtBL,AAgBM,OAhBC,CAaL,OAAO,CACL,CAAC,CAEC,GAAG,AAAC,CACF,WAAW,CAAE,IAAI,CAIlB,AArBP,AAkBQ,OAlBD,CAaL,OAAO,CACL,CAAC,CAEC,GAAG,CAED,WAAW,AAAC,CACV,MAAM,CAAE,KAAK,CACd,AAMT,AACE,WADS,CACT,EAAE,AAAC,CACD,SAAS,CAAE,KAAK,CAChB,UAAU,CAAE,MAAM,CACnB,AAJH,AAMI,WANO,CAKT,EAAE,CACA,EAAE,AAAC,CACD,WAAW,CAAE,oBAAoB,CACjC,SAAS,CAAE,KAAK,CAChB,MAAM,CAAE,KAAK,CACd"
+}
