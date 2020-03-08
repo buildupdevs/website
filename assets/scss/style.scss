@@ -1,3 +1,5 @@
+$blue: rgba(0, 0, 255, 1);
+
 * {
   box-sizing: border-box;
 }
@@ -17,7 +19,7 @@ body {
 }
 
 .hero {
-  background: rgba(0, 0, 255, 1);
+  background: $blue;
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -90,7 +92,7 @@ footer {
 
 footer {
   align-items: center;
-  background: rgba(0, 0, 255, 1);
+  background: $blue;
   color: white;
   display: flex;
   flex-direction: column;
