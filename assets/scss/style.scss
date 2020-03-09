@@ -1,4 +1,4 @@
-$blue: rgba(0, 0, 255, 1);
+$blue: #0030ff;
 
 * {
   box-sizing: border-box;
@@ -22,7 +22,7 @@ body {
   background: $blue;
   display: flex;
   flex-direction: column;
-  height: 100%;
+  height: 100vh;
   min-height: -webkit-fill-available;
   justify-content: space-between;
   .intro {
@@ -60,7 +60,7 @@ footer {
   justify-content: space-between;
   p {
     color: white;
-    font-size: 18px;
+    font-size: 24px;
     font-weight: 900;
   }
   .social {
@@ -106,7 +106,6 @@ footer {
   }
 
   .hero {
-    height: 600px;
     .intro {
       p {
         font-size: 36px;
