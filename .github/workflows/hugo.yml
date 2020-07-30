@@ -26,7 +26,7 @@ jobs:
       uses: peaceiris/actions-hugo@v2.4.12
       
     - name: Build Hugo
-      run: hugo --ignoreCache --gc --minify
+      run: hugo --minify
     
     - name: Deploy to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@3.5.9
