@@ -32,6 +32,8 @@ jobs:
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./docs
+        commit_message: ${{ github.event.head_commit.message }}
 #       uses: JamesIves/github-pages-deploy-action@3.5.9
 #       with:
 #           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
