@@ -1,4 +1,4 @@
 baseURL = "https://buildupdevs.com"
 languageCode = "en-us"
 title = "BuildUpDevs"
-publishDir = "docs"
+publishDir = "public"
