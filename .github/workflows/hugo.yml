@@ -27,15 +27,10 @@ jobs:
       
     - name: Build Hugo
       run: hugo --minify
-    
+  
     - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3
+      uses: JamesIves/github-pages-deploy-action@3.5.9
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: docs
-        commit_message: ${{ github.event.head_commit.message }}
-#       uses: JamesIves/github-pages-deploy-action@3.5.9
-#       with:
-#           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-#           BRANCH: master # The branch the action should deploy to.
-#           FOLDER: docs # The folder the action should deploy.
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: gh-pages # The branch the action should deploy to.
+          FOLDER: docs # The folder the action should deploy.
