@@ -6,16 +6,16 @@ on:
       - master
 
 jobs:
-  build:
-    name: Deploy
-    runs-on: ubuntu-latest
+  build-deploy:
+    runs-on: ubuntu-18.04
     steps:
-      - name: Checkout master
-        uses: actions/checkout@v1
-
-      - name: Deploy the site
-        uses: benmatselby/hugo-deploy-gh-pages@master
+      - uses: actions/checkout@master
+        with:
+          submodules: true
+      - name: build
+        uses: mattbailey/actions-hugo@v0.57.2
+        if: github.event.deleted == false
+        with:
+          args: --gc --minify
         env:
-          HUGO_VERSION: 0.74.3
-          TARGET_REPO: buildupdevs/buildupdevs.github.io/website
-          TOKEN: ${{ secrets.TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.TOKEN }}
