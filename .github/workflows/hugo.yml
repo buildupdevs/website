@@ -19,5 +19,5 @@ jobs:
         uses: benmatselby/hugo-deploy-gh-pages@master
         env:
           HUGO_VERSION: 0.74.3
-          TARGET_REPO: buildupdevs/website.github.io
+          TARGET_REPO: buildupdevs/website@gh-pages
           TOKEN: ${{ secrets.TOKEN }}
