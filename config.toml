@@ -1,4 +1,4 @@
-baseURL = "https://buildupdevs.com"
+baseURL = "https://buildupdevs.github.io/website"
 languageCode = "en-us"
 title = "BuildUpDevs"
 publishDir = "public"
