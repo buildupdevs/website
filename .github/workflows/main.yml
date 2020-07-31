@@ -15,17 +15,12 @@ jobs:
         with:
           submodules: true
           
+      # This GitHub Action handles both the build with Hugo and then deploying
+      # the output of the build to our gh-pages branch for deployment
       - name: Hugo Build & Deploy
         uses: mattbailey/actions-hugo@v0.57.2
         if: github.event.deleted == false
-        with:
-          args: --gc --minify
+#         with:
+#           args: --gc --minify
         env:
           GITHUB_TOKEN: ${{ secrets.TOKEN }}
-          
-#       - name: Deploy 🚀
-#         uses: JamesIves/github-pages-deploy-action@3.5.9
-#         with:
-#           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-#           BRANCH: gh-pages # The branch the action should deploy to.
-#           FOLDER: public # The folder the action should deploy.
