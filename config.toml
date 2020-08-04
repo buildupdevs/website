@@ -2,9 +2,3 @@ baseURL = "https://buildupdevs.com"
 languageCode = "en-us"
 title = "BuildUpDevs"
 publishDir = "public"
-
-[menu]
-
-  [[menu.main]]
-    identifier = "founders"
-    url = "/founders/"
