@@ -4,6 +4,8 @@
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 Source code for the website of buildupdevs.com
 
+This site and design has now been deprecated. Please go to the 2.0 version of the website at this repo: https://github.com/buildupdevs/website-2.0
+
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
