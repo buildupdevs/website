@@ -46,9 +46,6 @@ export const NavStyles = styled.nav`
   .logo {
     width: 60px;
   }
-  .gatsby-image-wrapper {
-    border-radius: 50%;
-  }
   @media (max-width: 500px) {
     flex-direction: column;
     ul li {
