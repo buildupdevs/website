@@ -8,7 +8,7 @@ export default function Nav() {
     <NavStyles>
       <Link to="/">
         <StaticImage
-          src="../assets/images/logo.png"
+          src="../assets/images/buildupdevs-logo.png"
           width={60}
           placeholder="none"
           quality={100}
