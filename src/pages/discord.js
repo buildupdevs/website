@@ -29,7 +29,7 @@ export default function DiscordPage({ data }) {
       <a
         className="discord"
         target="_blank"
-        href="https://discord.gg/CNGw2AUcMv"
+        href="https://discord.gg/mz2KYVU9"
         rel="noreferrer"
       >
         Join our Discord{' '}
