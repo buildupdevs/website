@@ -6,7 +6,7 @@ name: Build Gatsby site and Deploy to GitHub Pages
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
   push:
-    branches: [ gh-pages ]
+    branches: [ main ]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -22,4 +22,6 @@ jobs:
         
       - name: Gatsby Publish
         uses: enriikke/gatsby-gh-pages-action@v2.2.0
+        with:
+          deploy-branch: gh-pages
 
