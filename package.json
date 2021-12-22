@@ -46,7 +46,7 @@
     "styled-components": "^5.3.3"
   },
   "devDependencies": {
-    "eslint": "^8.4.1",
+    "eslint": "^8.5.0",
     "eslint-config-airbnb": "^19.0.2",
     "eslint-config-prettier": "^8.3.0",
     "eslint-config-wesbos": "^3.0.2",
