@@ -32,7 +32,7 @@
   "dependencies": {
     "babel-plugin-styled-components": "^2.0.6",
     "dotenv": "^16.0.0",
-    "gatsby": "^4.11.2",
+    "gatsby": "^4.14.0",
     "gatsby-plugin-image": "^2.11.1",
     "gatsby-plugin-sharp": "^4.11.1",
     "gatsby-plugin-styled-components": "^5.11.0",
