@@ -1,6 +1,5 @@
 /* eslint-disable react/no-danger */
 import React from 'react';
-import { Link } from 'gatsby';
 import { PrinciplesStyles } from '../styles/PrinciplesStyles';
 
 export default function PrinciplesSection({ data }) {
@@ -16,7 +15,6 @@ export default function PrinciplesSection({ data }) {
         <h2>{title}</h2>
         <div dangerouslySetInnerHTML={{ __html: html }} />
       </div>
-      
     </PrinciplesStyles>
   );
 }
