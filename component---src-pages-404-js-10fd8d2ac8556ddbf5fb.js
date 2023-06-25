@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkwebsite_2_0=self.webpackChunkwebsite_2_0||[]).push([[883],{429:function(e,t,n){n.r(t),n.d(t,{default:function(){return l}});var a=n(1597),c=n(7294);function l(){return c.createElement(c.Fragment,null,c.createElement("h2",null,"404"),c.createElement("p",null,"You can't have everything"),c.createElement(a.rU,{to:"/",className:"back"},"← Back Home"))}}}]);
+//# sourceMappingURL=component---src-pages-404-js-10fd8d2ac8556ddbf5fb.js.map
